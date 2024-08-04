@@ -1,113 +1,166 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
+import { DraftingCompass, MapPin, Shirt } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <div className="bg-[url('/images/elipse-top.png')] w-full lg:w-[615px] h-full lg:h-[710px] bg-contain bg-no-repeat absolute top-0 left-0" />
+      <section className="container flex flex-col lg:flex-row justify-center items-center mt-24 lg:mt-32 z-10 relative lg:gap-x-32 gap-y-16 lg:gap-y-0">
+        <div>
+          <h1 className="text-[56px] font-bold text-nueva-white">
+            NUEVA CLOTHING
+          </h1>
+          <p>
+            Din 11 aprilie 2024, NUEVA CLOTHING redefinește stilul urban chiar
+            lângă complexul FplayT Residence. Ne mândrim cu o colecție diversă
+            de haine de calitate, atent selecționate pentru a reflecta
+            personalitatea și preferințele tale. Descoperă noul standard în
+            modă, într-o locație convenabilă și cu servicii dedicate fiecărui
+            client.
+          </p>
+
+          <div className="mt-5 space-x-5">
+            <Link href="/evenimente">
+              <Button
+                variant="default"
+                className="uppercase font-bold tracking-wide"
+              >
+                Evenimente
+              </Button>
+            </Link>
+
+            <Link href="/magazin">
+              <Button
+                variant="secondary"
+                className="uppercase font-bold tracking-wide"
+              >
+                Magazin
+              </Button>
+            </Link>
+          </div>
         </div>
-      </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/images/hero.png"
+          width={472}
+          height={385}
+          alt="hero"
+          className="w-full lg:w-[472px]"
         />
+      </section>
+
+      <div className="relative z-20">
+        <div className="bg-[url('/images/elipse-gray.png')] w-full lg:w-[724px] h-[800px] lg:h-[1060px] bg-no-repeat bg-contain absolute top-[35%] lg:top-0 right-0 z-10" />
+        <section className="container-sm lg:container mx-3 lg:mx-auto bg-gradient-to-b from-nueva-black/50 to-nueva-dark/50 mt-32 rounded-30 px-5 py-16 border border-nueva-gray/50 relative z-20 backdrop-blur-lg">
+          <h4 className="uppercase font-bold text-[32px] text-center">
+            De ce sa alegi magazinul nostru
+          </h4>
+
+          <div className="flex flex-col lg:flex-row gap-16 lg:gap-5 items-center justify-around mt-24">
+            <div className="max-w-[290px]">
+              <div className="flex items-center space-x-2">
+                <MapPin className="w-6 h-6 text-nueva-white" />
+                <span className="font-semibold text-[20px] capitalize">
+                  Localizare
+                </span>
+              </div>
+              <p className="text-[14px] mt-3">
+                Suntem amplasați strategic lângă complexul FplayT Residence,
+                facilitând accesul rapid și comod pentru toți cetățenii.
+              </p>
+            </div>
+
+            <div className="max-w-[290px]">
+              <div className="flex items-center space-x-2">
+                <Shirt className="w-6 h-6 text-nueva-white" />
+                <span className="font-semibold text-[20px] capitalize">
+                  Colecție Unică
+                </span>
+              </div>
+              <p className="text-[14px] mt-3">
+                Oferim haine unice, atent selecționate, care îți permit să-ți
+                exprimi stilul și să ieși în evidență în comunitate.
+              </p>
+            </div>
+
+            <div className="max-w-[290px]">
+              <div className="flex items-center space-x-2">
+                <DraftingCompass className="w-6 h-6 text-nueva-white" />
+                <span className="font-semibold text-[20px] capitalize">
+                  Servicii Personalizate
+                </span>
+              </div>
+              <p className="text-[14px] mt-3">
+                Echipa noastră prietenoasă te ajută să găsești ținuta perfectă
+                pentru orice ocazie din viața de zi cu zi.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="container-sm lg:container mx-3 lg:mx-auto mt-32 relative z-20">
+          <h4 className="uppercase font-bold text-[30px] lg:text-[32px] text-center">
+            Întrebări adresate frecvent
+          </h4>
+
+          <div className="w-full lg:max-w-[960px] mx-auto mt-16">
+            <Accordion type="single" defaultValue="faq-1" collapsible>
+              <AccordionItem value="faq-1">
+                <AccordionTrigger>Care este salariul?</AccordionTrigger>
+                <AccordionContent>
+                  Salariul pentru toate funcțiile este de 70.000$, cu un bonus
+                  de 2.000$/oră pentru orele suplimentare peste 10 ore de
+                  pontaj.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="faq-2">
+                <AccordionTrigger>Care sunt bonusurile?</AccordionTrigger>
+                <AccordionContent>
+                  Se oferă un bonus de 10.000$ pentru fiecare persoană
+                  recomandată care se angajează și îndeplinește minimul de ore
+                  de pontaj specificate. De asemenea, Angajatul Săptămânii este
+                  recompensat cu premii în bani sau bunuri.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="faq-3">
+                <AccordionTrigger>
+                  Există un minim de luni pentru a mă angaja?
+                </AccordionTrigger>
+                <AccordionContent>
+                  Da, este necesar un angajament minim de 50 de luni.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="faq-4">
+                <AccordionTrigger>
+                  Care este programul magazinului ?
+                </AccordionTrigger>
+                <AccordionContent>De la 08:00 - 00:00 !</AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="faq-5">
+                <AccordionTrigger>
+                  Trebuie să citesc regulamentul?
+                </AccordionTrigger>
+                <AccordionContent>
+                  Da, este obligatoriu să citești regulamentul. Dacă nu îl iei
+                  la cunoștință, vei fi supus unei penalizări.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+        </section>
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </>
   );
 }
