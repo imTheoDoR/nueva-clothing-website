@@ -64,7 +64,7 @@ export default function Home() {
             De ce sa alegi magazinul nostru
           </h4>
 
-          <div className="flex flex-col lg:flex-row gap-16 lg:gap-5 items-center justify-around mt-24">
+          <div className="flex flex-col lg:flex-row gap-16 lg:gap-5 items-center justify-around mt-16">
             <div className="max-w-[290px]">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-6 h-6 text-nueva-white" />
@@ -137,7 +137,7 @@ export default function Home() {
                   Există un minim de luni pentru a mă angaja?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Da, este necesar un angajament minim de 50 de luni.
+                  Da, este necesar un angajament minim de 20 de luni.
                 </AccordionContent>
               </AccordionItem>
 

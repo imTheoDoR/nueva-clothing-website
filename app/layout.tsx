@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Toaster } from "sonner";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -21,14 +21,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ro">
-      <body className={font.className}>
-        <main>
-          <Navbar />
-          {children}
-          <Footer />
-        </main>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="ro">
+        <body className={font.className}>
+          <main>
+            <Toaster />
+            {children}
+          </main>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
