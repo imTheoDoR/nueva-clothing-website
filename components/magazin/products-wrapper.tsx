@@ -130,17 +130,19 @@ const ProductsWrapper = ({ products }: Props) => {
                 key={index}
                 className="bg-gradient-to-br from-nueva-gray2/50 to-nueva-dark/50 border border-nueva-gray/50 p-5 rounded-30 max-w-[310px] w-full"
               >
-                <Image
-                  src={product.image}
-                  width={256}
-                  height={179}
-                  alt={`Nueva ${product.name}`}
-                  className={cn(
-                    "mx-auto max-w-[256px] max-h-[179px]",
-                    product.category === "PANTS" && "max-w-[146px]"
-                  )}
-                  priority
-                />
+                <div className="max-w-[256px] max-h-[179px] h-full w-full">
+                  <Image
+                    src={product.image}
+                    width={256}
+                    height={179}
+                    alt={`Nueva ${product.name}`}
+                    className={cn(
+                      "mx-auto max-w-[256px] max-h-[179px]",
+                      product.category === "PANTS" && "max-w-[146px]"
+                    )}
+                    priority
+                  />
+                </div>
 
                 <h4 className="text-[18px] text-nueva-orange font-semibold text-center mt-3">
                   {product.name}
