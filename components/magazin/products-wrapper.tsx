@@ -130,31 +130,34 @@ const ProductsWrapper = ({ products }: Props) => {
                 key={index}
                 className="bg-gradient-to-br from-nueva-gray2/50 to-nueva-dark/50 border border-nueva-gray/50 p-5 rounded-30 max-w-[310px] w-full"
               >
-                <div className="max-w-[256px] max-h-[179px] h-full w-full">
-                  <Image
-                    src={product.image}
-                    width={256}
-                    height={179}
-                    alt={`Nueva ${product.name}`}
-                    className={cn(
-                      "mx-auto max-w-[256px] max-h-[179px]",
-                      product.category === "PANTS" && "max-w-[146px]"
-                    )}
-                    priority
-                  />
-                </div>
+                <div className="min-h-[300px] h-full flex flex-col justify-center">
+                  <div className="max-w-[256px] max-h-[179px] h-full w-full">
+                    <Image
+                      src={product.image}
+                      width={256}
+                      height={179}
+                      alt={`Nueva ${product.name}`}
+                      className={cn(
+                        "mx-auto max-w-[256px] max-h-[179px]",
+                        product.category === "PANTS" && "max-w-[146px]",
+                        product.category === "HAT" && "max-h-[120px]"
+                      )}
+                      priority
+                    />
+                  </div>
 
-                <h4 className="text-[18px] text-nueva-orange font-semibold text-center mt-3">
-                  {product.name}
-                </h4>
+                  <h4 className="text-[18px] text-nueva-orange font-semibold text-center mt-3">
+                    {product.name}
+                  </h4>
 
-                <div className="flex items-center justify-around mt-10">
-                  <span>
-                    <strong>Model:</strong> {product.model}
-                  </span>
-                  <span>
-                    <strong>Raft:</strong> {product.raft}
-                  </span>
+                  <div className="flex items-center justify-around mt-10">
+                    <span>
+                      <strong>Model:</strong> {product.model}
+                    </span>
+                    <span>
+                      <strong>Raft:</strong> {product.raft}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))
