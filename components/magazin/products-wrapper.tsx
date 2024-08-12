@@ -2,6 +2,7 @@
 
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -131,13 +132,17 @@ const ProductsWrapper = ({ products }: Props) => {
               >
                 <Image
                   src={product.image}
-                  width={200}
-                  height={195}
-                  alt="Nueva Product 1"
-                  className="mx-auto"
+                  width={256}
+                  height={179}
+                  alt={`Nueva ${product.name}`}
+                  className={cn(
+                    "mx-auto max-w-[256px] max-h-[179px]",
+                    product.category === "PANTS" && "max-w-[146px]"
+                  )}
+                  priority
                 />
 
-                <h4 className="text-[18px] text-nueva-orange font-semibold text-center -mt-3">
+                <h4 className="text-[18px] text-nueva-orange font-semibold text-center mt-3">
                   {product.name}
                 </h4>
 

@@ -54,6 +54,7 @@ export default function Home() {
           height={385}
           alt="hero"
           className="w-full lg:w-[472px]"
+          priority
         />
       </section>
 
