@@ -117,9 +117,17 @@ export default function Home() {
               <AccordionItem value="faq-1">
                 <AccordionTrigger>Care este salariul?</AccordionTrigger>
                 <AccordionContent>
-                  Salariul pentru toate funcțiile este de 70.000$, cu un bonus
+                  {/* Salariul pentru toate funcțiile este de 70.000$, iar pentru gradul de Supervisor începe de la 80.000$, cu un bonus
                   de 2.000$/oră pentru orele suplimentare peste 10 ore de
-                  pontaj.
+                  pontaj. */}
+                  <p>Salariu VANZATOR = 70.000$</p>
+                  <p>Salariu ASISTENT MANAGER = 70.000$</p>
+                  <p>Salariu MANAGER = 70.000$</p>
+                  <p>Salariu SUPERVIZOR = 80.000$</p>
+                  <p className="mt-3">
+                    Cu un bonus de 2.000$/oră pentru orele suplimentare peste 10
+                    ore de pontaj.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
