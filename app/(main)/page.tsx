@@ -137,7 +137,9 @@ export default function Home() {
                 <AccordionTrigger>
                   Există un minim de luni pentru a mă angaja?
                 </AccordionTrigger>
-                <AccordionContent>Nu.</AccordionContent>
+                <AccordionContent>
+                  Da, trebuie să aveți un minim de 10 luni.
+                </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="faq-4">
