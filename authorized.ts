@@ -1,5 +1,4 @@
 export const authorizedUsers = [
-  "user_2kVRi1mbBLGUtbKNgDrkyXnlRcd",
-  "user_2kWmquDedZHN812M24UxD91dGHM",
-  "user_2kWggDlyYKaJVTApvfSHVrHHhK8",
+  "user_2leW8CQOPYjxYGkwQwCXA4pJZfT",
+  "user_2leWAL2u3dajTDauKJxDhAV6lbC",
 ];
