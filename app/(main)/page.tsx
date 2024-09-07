@@ -125,7 +125,7 @@ export default function Home() {
                   <p>Salariu MANAGER = 70.000$</p>
                   <p>Salariu SUPERVIZOR = 80.000$</p>
                   <p className="mt-3">
-                    Cu un bonus de 2.000$/oră pentru orele suplimentare peste 10
+                    Cu un bonus de 2.000$/oră pentru orele suplimentare peste 7
                     ore de pontaj.
                   </p>
                 </AccordionContent>
