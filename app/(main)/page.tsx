@@ -120,12 +120,12 @@ export default function Home() {
                   {/* Salariul pentru toate funcțiile este de 70.000$, iar pentru gradul de Supervisor începe de la 80.000$, cu un bonus
                   de 2.000$/oră pentru orele suplimentare peste 10 ore de
                   pontaj. */}
-                  <p>Salariu VANZATOR = 70.000$</p>
-                  <p>Salariu ASISTENT MANAGER = 70.000$</p>
-                  <p>Salariu MANAGER = 70.000$</p>
-                  <p>Salariu SUPERVIZOR = 80.000$</p>
+                  <p>Salariu VANZATOR = 50.000$</p>
+                  <p>Salariu ASISTENT MANAGER = 50.000$</p>
+                  <p>Salariu MANAGER = 60.000$</p>
+                  <p>Salariu SUPERVIZOR = 70.000$</p>
                   <p className="mt-3">
-                    Cu un bonus de 2.000$/oră pentru orele suplimentare peste 7
+                    Cu un bonus de 3.000$/oră pentru orele suplimentare peste 7
                     ore de pontaj.
                   </p>
                 </AccordionContent>
