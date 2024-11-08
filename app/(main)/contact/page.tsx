@@ -6,7 +6,7 @@ export default function ContactPage() {
           Contactează-ne
         </h1>
         <p className="text-[20px] text-nueva-white text-center mt-3 max-w-[770px] mx-auto">
-          Magazinul de haine Nueva Clothing se află lângă zona complexului
+          Magazinul de haine Reyes Clothing se află lângă zona complexului
           Fplayt Residence. Suntem aici pentru a răspunde tuturor întrebărilor
           tale și pentru a te ajuta cu orice ai nevoie!
         </p>

@@ -8,7 +8,7 @@ export default async function EvenimentePage() {
     <div className="container">
       <div className="mt-24 lg:mt-32">
         <h1 className="text-[48px] font-bold text-nueva-white max-w-[677px] text-center mx-auto capitalize leading-tight">
-          Evenimente Organizate de nueva clothing
+          Evenimente Organizate de Reyes Clothing
         </h1>
         <p className="text-[20px] text-nueva-white text-center mt-3 max-w-[770px] mx-auto">
           Bucură-te de competiții palpitante, întâlniri comunitare și activități

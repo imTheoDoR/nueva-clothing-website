@@ -307,7 +307,7 @@ const AdaugaEveniment = () => {
                 <FormControl>
                   <Input
                     {...field}
-                    placeholder="Ex: Sangre Nueva (Dacă sunt mai mulți folosiți virgula. Ex: Sangre Nueva, Nueva Clothing, Monica Sandu)"
+                    placeholder="Ex: Reyes Clothing (Dacă sunt mai mulți folosiți virgula. Ex: Reyes Clothing, Reyes, Monica Sandu)"
                     type="text"
                     className="!rounded-30 bg-nueva-dark border border-nueva-gray/50 h-12 focus-visible:!ring-0 px-3"
                     disabled={isPending}

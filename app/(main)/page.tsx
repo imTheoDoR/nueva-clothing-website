@@ -16,10 +16,10 @@ export default function Home() {
       <section className="container flex flex-col lg:flex-row justify-center items-center mt-24 lg:mt-32 z-10 relative lg:gap-x-32 gap-y-16 lg:gap-y-0">
         <div>
           <h1 className="text-[56px] font-bold text-nueva-white">
-            NUEVA CLOTHING
+            Reyes Clothing
           </h1>
           <p>
-            Din 11 aprilie 2024, NUEVA CLOTHING redefinește stilul urban chiar
+            Din 06 noiembrie 2024, Reyes Clothing redefinește stilul urban chiar
             lângă complexul FplayT Residence. Ne mândrim cu o colecție diversă
             de haine de calitate, atent selecționate pentru a reflecta
             personalitatea și preferințele tale. Descoperă noul standard în
@@ -122,8 +122,8 @@ export default function Home() {
                   pontaj. */}
                   <p>Salariu VANZATOR = 50.000$</p>
                   <p>Salariu ASISTENT MANAGER = 50.000$</p>
-                  <p>Salariu MANAGER = 60.000$</p>
-                  <p>Salariu SUPERVIZOR = 70.000$</p>
+                  <p>Salariu MANAGER = 50.000$</p>
+                  <p>Salariu SUPERVIZOR = 60.000$</p>
                   <p className="mt-3">
                     Cu un bonus de 3.000$/oră pentru orele suplimentare peste 7
                     ore de pontaj.
@@ -142,11 +142,11 @@ export default function Home() {
               </AccordionItem>
 
               <AccordionItem value="faq-3">
-                <AccordionTrigger>
-                  Există un minim de luni pentru a mă angaja?
-                </AccordionTrigger>
+                <AccordionTrigger>Cum dau drumul la pontaj ?</AccordionTrigger>
                 <AccordionContent>
-                  Da, trebuie să aveți un minim de 10 luni.
+                  Pontajul se pornește pe butonul verde și se oprește pe cel
+                  roșu când pleci de la magazin iar timpul petrecut pe pontaj se
+                  calculează automat !
                 </AccordionContent>
               </AccordionItem>
 
@@ -154,17 +154,14 @@ export default function Home() {
                 <AccordionTrigger>
                   Care este programul magazinului ?
                 </AccordionTrigger>
-                <AccordionContent>De la 08:00 - 00:00 !</AccordionContent>
+                <AccordionContent>De la 15:00 - 02:00 !</AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="faq-5">
                 <AccordionTrigger>
-                  Trebuie să citesc regulamentul?
+                  Există un minim de luni pentru a mă angaja ?
                 </AccordionTrigger>
-                <AccordionContent>
-                  Da, este obligatoriu să citești regulamentul. Dacă nu îl iei
-                  la cunoștință, vei fi supus unei penalizări.
-                </AccordionContent>
+                <AccordionContent>Nu, nu exista !</AccordionContent>
               </AccordionItem>
             </Accordion>
           </div>

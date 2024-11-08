@@ -49,7 +49,7 @@ const Navbar = () => {
             src="/images/logo.png"
             width={158}
             height={65}
-            alt="Nueva Clothing Logo"
+            alt="Reyes Clothing Logo"
             className="w-32"
           />
         </Link>

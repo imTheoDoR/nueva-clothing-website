@@ -8,7 +8,7 @@ export default async function MagazinPage() {
     <div className="container">
       <div className="mt-24 lg:mt-32">
         <h1 className="text-[48px] font-bold text-nueva-white max-w-[677px] text-center mx-auto capitalize leading-tight">
-          Descoperă Moda Urbană la nueva clothing
+          Descoperă Moda Urbană la Reyes Clothing
         </h1>
         <p className="text-[20px] text-nueva-white text-center mt-3 max-w-[770px] mx-auto">
           Ținute unice și stiluri personalizate pentru fiecare cetățean. Fii

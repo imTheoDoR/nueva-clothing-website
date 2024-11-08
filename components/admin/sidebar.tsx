@@ -63,7 +63,7 @@ const Sidebar = () => {
                 src="/images/logo.png"
                 width={158}
                 height={65}
-                alt="Nueva Clothing logo"
+                alt="Reyes Clothing logo"
                 className="mx-auto w-32"
               />
               <p className="text-center text-xs uppercase mt-px">
@@ -104,7 +104,7 @@ const Sidebar = () => {
               src="/images/logo.png"
               width={158}
               height={65}
-              alt="Nueva Clothing logo"
+              alt="Reyes Clothing logo"
               className="mx-auto w-32"
             />
             <p className="text-center text-xs uppercase mt-px">

@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="container py-5 text-sm">
           &copy; {year} by{" "}
           <Link href="/" className="text-nueva-orange">
-            Nueva Clothing
+            Reyes Clothing
           </Link>
           . All right are reserved.
         </div>

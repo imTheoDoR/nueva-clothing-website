@@ -10,9 +10,9 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nueva Clothing",
+  title: "Reyes Clothing",
   description:
-    "NUEVA CLOTHING - Magazin de modă urbană din 11 aprilie 2024, situat lângă complexul FplayT Residence. Descoperă colecții unice și stiluri personalizate într-o locație convenabilă.",
+    "Reyes Clothing - Magazin de modă urbană din 11 aprilie 2024, situat lângă complexul FplayT Residence. Descoperă colecții unice și stiluri personalizate într-o locație convenabilă.",
 };
 
 export default function RootLayout({
