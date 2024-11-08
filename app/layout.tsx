@@ -12,7 +12,7 @@ const font = Poppins({
 export const metadata: Metadata = {
   title: "Reyes Clothing",
   description:
-    "Reyes Clothing - Magazin de modă urbană din 11 aprilie 2024, situat lângă complexul FplayT Residence. Descoperă colecții unice și stiluri personalizate într-o locație convenabilă.",
+    "Reyes Clothing - Magazin de modă urbană din 11 aprilie 2024, situat lângă Baza Militara în zona Zancudo de pe Ruta 68. Descoperă colecții unice și stiluri personalizate într-o locație convenabilă.",
 };
 
 export default function RootLayout({

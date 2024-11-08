@@ -327,7 +327,7 @@ const AdaugaEveniment = () => {
                 <FormControl>
                   <Input
                     {...field}
-                    placeholder="Ex: Magazinul de Haine care este amplasat langa complexul FplayT Residence."
+                    placeholder="Ex: Magazinul de Haine care este amplasat langa Baza Militara în zona Zancudo de pe Ruta 68."
                     type="text"
                     className="!rounded-30 bg-nueva-dark border border-nueva-gray/50 h-12 focus-visible:!ring-0 px-3"
                     disabled={isPending}

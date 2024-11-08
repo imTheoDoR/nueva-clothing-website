@@ -20,11 +20,11 @@ export default function Home() {
           </h1>
           <p>
             Din 06 noiembrie 2024, Reyes Clothing redefinește stilul urban chiar
-            lângă complexul FplayT Residence. Ne mândrim cu o colecție diversă
-            de haine de calitate, atent selecționate pentru a reflecta
-            personalitatea și preferințele tale. Descoperă noul standard în
-            modă, într-o locație convenabilă și cu servicii dedicate fiecărui
-            client.
+            lângă Baza Militara în zona Zancudo de pe Ruta 68. Ne mândrim cu o
+            colecție diversă de haine de calitate, atent selecționate pentru a
+            reflecta personalitatea și preferințele tale. Descoperă noul
+            standard în modă, într-o locație convenabilă și cu servicii dedicate
+            fiecărui client.
           </p>
 
           <div className="mt-5 space-x-5">
@@ -74,8 +74,9 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-[14px] mt-3">
-                Suntem amplasați strategic lângă complexul FplayT Residence,
-                facilitând accesul rapid și comod pentru toți cetățenii.
+                Suntem amplasați strategic lângă Baza Militara în zona Zancudo
+                de pe Ruta 68, facilitând accesul rapid și comod pentru toți
+                cetățenii.
               </p>
             </div>
 
