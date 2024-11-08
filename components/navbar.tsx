@@ -47,8 +47,8 @@ const Navbar = () => {
         <Link href="/">
           <Image
             src="/images/logo.png"
-            width={158}
-            height={65}
+            width={69}
+            height={69}
             alt="Reyes Clothing Logo"
             className="w-32"
           />
