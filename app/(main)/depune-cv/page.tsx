@@ -10,7 +10,7 @@ export default function DepuneCVPage() {
         <p className="text-[20px] text-nueva-white text-center mt-3 max-w-[770px] mx-auto">
           Dacă ești pasionat de modă și vrei să faci parte din echipa noastră
           dinamică, te invităm să ne trimiți CV-ul tău. Căutăm oameni talentați
-          și motivați, gata să contribuie la succesul magazinului Nueva
+          și motivați, gata să contribuie la succesul magazinului Reyes
           Clothing. Trimite-ne CV-ul și hai să construim împreună viitorul
           modei!
         </p>
