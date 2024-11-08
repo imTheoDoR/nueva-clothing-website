@@ -50,7 +50,7 @@ const Navbar = () => {
             width={69}
             height={69}
             alt="Reyes Clothing Logo"
-            className="w-32"
+            className="h-[34px]"
           />
         </Link>
 
